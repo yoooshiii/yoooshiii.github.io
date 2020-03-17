@@ -204,6 +204,9 @@ hr.light-100{
     font-size: 2em;
     padding: .7em;
   }
+  .btn-lg{
+    display:none;
+  }
 }
 
 
