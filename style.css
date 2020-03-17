@@ -26,6 +26,10 @@ html,body{
 .bgc{
   background-color: #ebfcfc;
 }
+.slide{
+  padding-top:40px;  
+}
+
 .carousel-inner img{
   width: 100%;
   height:100%;
