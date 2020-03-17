@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>YSK-LOG</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
@@ -15,23 +16,44 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-<div class="bgc container-fluid">
-		<a class="navbar-brand" href="#"><img id="myicon" src="img/yskicon.png"></a>
-		<button type="button" class="navbar-toggler" data-toggler="collapse" data-target="#navabarResponsive">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navabarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
-				<li class="nav-item"><a class="nav-link" href="#gaiyo">SkillSets</a></li>
-				<li class="nav-item"><a class="nav-link" href="#history">History</a></li>
-				<li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
-				<li class="nav-item"><a class="nav-link" href="#information">Information</a></li>
-			</ul>
+<!-- <div class="container">
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+		<div class="bgc container-fluid">
+				<a class="navbar-brand" href=""><img id="myicon" src="img/yskicon.png"></a>
+				<button class="navbar-toggler" data-toggler="collapse" data-target="#navabarRes">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="navabarRes" class="collapse navbar-collapse" >
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
+						<li class="nav-item"><a class="nav-link" href="#gaiyo">SkillSets</a></li>
+						<li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+						<li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+						<li class="nav-item"><a class="nav-link" href="#information">Information</a></li>
+					</ul>
+				</div>
 		</div>
+	</nav>
+</div> -->
+<div class="container">
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+		<div class="bgc container-fluid">
+			<a class="navbar-brand" href="#top"><img id="myicon" src="img/yskicon.png"></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="menu" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
+					<li class="nav-item"><a class="nav-link" href="#gaiyo">SkillSets</a></li>
+					<li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+					<li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+					<li class="nav-item"><a class="nav-link" href="#information">Information</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </div>
-</nav>
 
 <!--- Image Slider -->
 <div id="slides" class="carousel slide" data-ride="carousel">
@@ -138,8 +160,6 @@
 				</div>
 			</div>
 			<!-- <label href="#" class="btn btn-primary"></label> -->
-
-
 		</div>
 		<div class="col-lg-6">
 			<br>
