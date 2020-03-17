@@ -84,21 +84,28 @@ text-shadow: 1px 1px 15px #000;
   color: #563d7c;
 }
 .fa-css3{
- color: #2163af;
+ color: #00a1eb;
 }
 .fa-vuejs{
   color: #37AD70;
 }
-.fa-code,.fa-bold,.fa-css3,.fa-vuejs{
+.fa-python{
+  color:#4400ff;
+}
+.fa-code,.fa-bold,.fa-css3,.fa-vuejs,.fa-python{
   font-size: 4em;
   margin: 1rem;
 }
+
 .fun{
   width: 100%;
   margin-bottom: 2rem;
 }
 .gif{
   max-width: 100%;
+}
+.fun-background{
+  background-color: black;
 }
 .centerp{
   text-align: center;
