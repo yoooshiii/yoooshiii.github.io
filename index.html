@@ -12,6 +12,12 @@
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+	<script type="text/javascript">
+		'use strict';
+		function increment(){
+			goodnum.innerHTML=(goodnum.innerHTML==""?0:parseInt(goodnum.innerHTML))+1;
+		}
+	</script>
 </head>
 <body>
 
@@ -49,7 +55,10 @@
 		<div class="carousel-caption">
 			<h1 class="display-2">Yoshiki.K</h1>
 			<h3>1,April,2020 〜</h3>
-			<button type="button" class="btn btn-primary btn-lg">Good！！！</button>
+			<div class="line">
+				<button type="button" class="btn btn-primary btn-lg" id="goodbtn" onclick="increment()">Good!</button>
+				<div id="goodnum">0</div>
+			</div>
 		</div>
 	</div>
 	<div class="carousel-item">
