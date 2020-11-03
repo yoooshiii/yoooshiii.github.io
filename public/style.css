@@ -87,8 +87,6 @@ text-shadow: 1px 1px 15px #000;
 }
 .welcome{
   width: 100%;
-  margin: 0 auto;
-  padding-top: 2rem;
 }
 .welcome hr{
   border-top: 2px solid #b4b4b4;
@@ -96,18 +94,10 @@ text-shadow: 1px 1px 15px #000;
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
-.fa-code{
+.fa-laravel{
   color: #e54d26;
 }
-.fa-bold{
-  color: #563d7c;
-}
-.fa-css3{
- color: #00a1eb;
-}
-.fa-vuejs{
-  color: #37AD70;
-}
+
 .fa-python{
   color:#4400ff;
 }
